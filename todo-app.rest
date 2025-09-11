@@ -6,10 +6,8 @@ GET http://localhost:3000
 POST http://localhost:3000/auth/register
 Content-Type: application/json
 
-{
-    "username":"zlatanoskidavid92@gmail.com",
-    "password":"baba123"
-}
+
+    
 
 
 ###
@@ -17,7 +15,3 @@ Content-Type: application/json
 POST http://localhost:3000/auth/login
 Content-Type: application/json
 
-{
-    "username":"zlatanoskidavid92@gmail.com",
-    "password":"baba123"
-}
