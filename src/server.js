@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.use('/auth',authMiddleware,authRoutes);
+app.use('/auth',authRoutes);
 
 app.use('/todos',authMiddleware ,todoRoutes);
 
